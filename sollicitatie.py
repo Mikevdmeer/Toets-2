@@ -16,7 +16,6 @@ if hoge_hoed == "lage hoed":
 gewicht = input("Bent u zwaarder dan 90 kg en lichter dan 120 kg? (ja/nee): ")
 if gewicht == "10":
     raise ValueError('dat is niet gezond')
-    exit()
 ervaring_dieren_dressuur = int(input("Hoeveel jaar ervaring heeft u met dieren-dressuur (voer het als een getal in): "))
 ervaring_jongleren = int(input("Hoeveel jaar ervaring heeft u met jongleren (voer het als een getal in): "))
 ervaring_acrobatiek = int(input("Hoeveel jaar ervaring heeft u met acrobatiek? (voer het als een getal in): "))
